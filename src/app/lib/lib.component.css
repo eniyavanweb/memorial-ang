@@ -1,0 +1,260 @@
+.lib-head {
+    background-color: #b32137;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    padding: 29px;
+    color: #fff;
+}
+
+.library {
+    width: 100%;
+    height: 86vh;
+}
+
+.lib-para p {
+    text-align: center;
+    justify-content: center;
+    font-size: 17px;
+    display: flex;
+    line-height: 30px;
+    margin-top: 75px;
+}
+
+.lib-img img {
+    width: 100%;
+    margin-top: 7em;
+    
+}
+
+.lib-link {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 76px;
+}
+
+.lib-link a {
+    width: 200px;
+    font-size: 17px;
+    padding: 20px 0px;
+    background-color: #81256c;
+    color: #fff;
+    display: inline-block;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+/*footer*/
+
+.bg-img {
+    display: flex;
+    width: 100%;
+    background-image: url(../../assets/footer-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 4em;
+}
+
+.bg-img .heading-follow {
+    width: 40%;
+    color: #fff;
+    padding-left: 5em;
+}
+
+.bg-img .heading-follow ul li {
+    display: inline-block;
+    padding-left: 37px;
+    font-size: 45px;
+}
+
+.bg-img .heading-follow h1 {
+    font-size: 28px;
+    padding-left: 2.5em;
+    text-decoration: underline;
+}
+
+.bg-img .social-my {
+    width: 60%;
+}
+
+.bg-img .social-my h1 {
+    font-size: 28px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.bg-img .social-my input {
+    padding: 19px 334px 19px 27px;
+    width: 17%;
+    height: 10%;
+    outline: none;
+}
+
+.social-my .my-btn {
+    padding: 18px 42px;
+    background: #000;
+    color: #fff;
+    outline: none;
+    margin-top: 15px;
+}
+
+@media(max-width:1200px) {
+
+}
+
+@media(max-width:960px) {
+    .about-img img {
+        display: contents;
+    }
+
+    .lib-img img {
+        width: 100%;
+        margin-top: 7em;
+        height: 28em;
+    }
+
+    .social-media {
+        visibility: hidden;
+    }
+    .bg-img .heading-follow {
+        width: 80%;
+        color: #fff;
+        position: relative;
+        left: -4em;
+    }
+    .bg-img .social-my {
+        width: 80%;
+        position: relative;
+        right: 5em;
+    }
+    .bg-img {
+  
+    top: -1em;
+}
+}
+
+@media(max-width:760px) {
+
+    .bg-img {
+        display: block;
+        position: relative;
+        top: -6em;
+    }
+ 
+    .bg-img .social-my {
+        width: 57%;
+        position: relative;
+        right: -6em;
+        bottom: 1em;
+        top: 3em;
+
+
+      
+    }
+    .bg-bg {
+        background: #b52234;
+    }
+    .bg-img .heading-follow {
+        padding-left: 100px;
+        padding-top: 4em;
+        position: relative;
+        top: 3em;
+        left: -78px;
+    }
+
+    .bg-img .social-my input
+    {
+        padding: 19px 60px 19px 27px;
+        width: 64%;
+    }
+}
+
+@media(max-width:560px) {
+    
+    
+    .social-my .my-btn {
+        padding: 18px 42px;
+        background: #000;
+        color: #fff;
+        outline: none;
+        margin-top: 10px;
+    }
+    
+    .social-media {
+        visibility: hidden;
+    }
+    .bg-bg {
+        background: #b52234;
+        position: relative;
+        top: 12em;
+    }
+
+    .bg-img {
+        display: block;
+        height: 37vh;
+        position: relative;
+        top: -11em;
+    }
+
+    .bg-img .social-my {
+        
+        right: -5em;
+        bottom: 4em;
+        top: -2em;
+    }
+
+    .bg-img .heading-follow
+    {
+        padding-left: 100px;
+        top: 3em;
+        left: -78px;
+    }
+
+
+    .bg-img .heading-follow {
+        padding-left: 100px;
+        top: 3em;
+        left: -78px;
+        position: relative;
+        top: -2em;
+    }
+}
+
+
+@media(max-width:420px) {
+    .next-head .hea h1 {
+        padding-left: 82px;
+        font-size: 25px;
+    }
+    .next-head .hea p {
+        padding-left: 16px;
+    }
+    .mye {
+        left: 3em;
+    font-size: 16px;
+    }
+    .bg-img .social-my {
+        width: 57%;
+        position: relative;
+        right: -3em;
+        top: -6em;
+    }
+    .bg-img .social-my input {
+        padding: 19px 93px 19px 27px;
+    }
+    .bg-img .heading-follow {
+        color: #fff;
+        position: relative;
+        left: -7.3em;
+        top: -4em;
+        width: 108%;
+        font-size: 17px;
+    }
+
+ 
+  
+}

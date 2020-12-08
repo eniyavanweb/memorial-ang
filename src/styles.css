@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {  }
+body { margin: 0; font-family: 'poppins', sans-serif; padding: 0; }
+
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .mat-toolbar
+  {
+    background: rgb(33 102 115);
+  }
+
+  .my-img
+  {
+    padding-left: 39px;
+  }
+
+  .material-icons
+  {
+    font-size: 36px;
+  }
+
+  .mat-toolbar-row, .mat-toolbar-single-row
+  {
+      padding: 0px 45px;
+  }
+
+.mat-nav-list
+{
+    width: 200px;
+}
+
+.mat-drawer {
+    background-color: #424242;
+    color: #fff;
+    width: 200px;
+    padding-top: 3em;
+}
+
+
+
+.my-links li
+{
+  list-style: none;
+  font-size: 24px;
+  line-height: 3em;
+}
+
