@@ -48,50 +48,7 @@
     font-size: 17px;
 }
 
-/*footer*/
 
-.bg-img {
-    display: flex;
-    width: 100%;
-    background-image: url(../../assets/footer-bg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-.bg-img .heading-follow {
-    width: 40%;
-    color: #fff;
-    padding-left: 5em;
-}
-
-.bg-img .heading-follow ul li {
-    display: inline-block;
-    padding-left: 37px;
-    font-size: 45px;
-}
-
-.bg-img .heading-follow h1 {
-    font-size: 28px;
-    padding-left: 2.5em;
-    text-decoration: underline;
-}
-
-.bg-img .social-my {
-    width: 60%;
-}
-
-.bg-img .social-my h1 {
-    font-size: 28px;
-    color: #fff;
-    text-decoration: underline;
-}
-
-.bg-img .social-my input {
-    padding: 17px 119px 19px 27px;
-    width: 124px;
-    height: 10%;
-    outline: none;
-}
 
 .social-my .my-btn {
     padding: 18px 42px;
